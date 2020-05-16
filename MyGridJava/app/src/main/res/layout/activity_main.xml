@@ -4,16 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/brown"
     tools:context=".MainActivity">
 
-    <GridView
+    <com.example.mygridjava.GestureDetectGridView
         android:id="@+id/grid"
         android:layout_above="@+id/anim_btn"
+        android:animateLayoutChanges="true"
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>
-
-    <include
-        layout="@layout/content_main"
-        android:layout_height="547dp" />
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
