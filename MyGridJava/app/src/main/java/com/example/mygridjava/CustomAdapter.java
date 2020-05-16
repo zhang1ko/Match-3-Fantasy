@@ -15,13 +15,8 @@ public class CustomAdapter extends BaseAdapter {
 
     private int mColumnWidth, mColumnHeight;
 
-    private long mDelay;
-
-    private boolean mNoAnimate;
-
-    public CustomAdapter(Context context, List<Button> buttons, int columnWidth,
+    public CustomAdapter(List<Button> buttons, int columnWidth,
                          int columnHeight) {
-        mContext = context;
         mButtons = buttons;
         mColumnWidth = columnWidth;
         mColumnHeight = columnHeight;
